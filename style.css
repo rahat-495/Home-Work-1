@@ -1005,7 +1005,6 @@ header .container1{
     justify-content: center;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     position: relative;
     top: 40px;
 }
@@ -2060,13 +2059,128 @@ footer .Item-section{
 
     .section7 .maindiv0{
         width: 95%;
-        height: 500px;
+        height: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid black;
     }
 
+    .maindiv0 div{
+        width: 50%;
+    }
 
+    .firstdiv1 .iconarea1{
+        width: 250px;
+        height: 40px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #5DB2FF;
+        position: absolute;
+        top: 90px;
+        left: 120px;
+        margin: 0 auto;
+        z-index: -1;
+        cursor: pointer;
+    }
+
+    .iconarea1 a{
+        font-size: 20px;
+        color: white;
+    }
+
+    .firstdiv1 h1{
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        position: relative;
+        top: -10px;
+    }
+
+    .firstdiv1 p{
+        font-family: 'Poppins', sans-serif;
+        line-height: 18px;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 10px;
+        font-weight: normal;
+        position: relative;
+        top: 0px;
+    }
+
+    .firstdiv2 img{
+        width: 235px;
+    }
+
+}
+
+/*Section 8 Start*/
+
+@media (max-width:768px){
+
+    .section8{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 200px;
+    }
+
+    .section8 .mini-section{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .mini-sec-heading h1{
+        font-size: 26px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: 25px;
+    }
+
+    .mini-section .midle-item-div{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        top: 20px;
+    }
+
+    .small-divs{
+        width: 25%;
+        height: 135px;
+        display: flex;
+        margin: 0px 28px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .name-div h1{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .name-div p{
+        font-size: 10px;
+        font-weight: 100;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+    }
 
 }
